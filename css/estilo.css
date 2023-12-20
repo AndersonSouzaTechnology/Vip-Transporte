@@ -1,0 +1,145 @@
+
+
+*{ /* "Peguei do youtube" Resetando o documento */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contato-cabeçalho{
+    background-color: #00499f;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-align: right;
+    padding-right: 120px;     
+}
+nav{
+    border-bottom: 3px solid #00499f;
+}
+/* .titulo{
+    display: inline-block;
+    color: #00499f;
+    right: 100px;
+    margin-left: 150px;
+    font-size: 56px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    
+} */
+
+.logo{
+    display: inline-block;
+    color: #00499f;
+    right: 100px;
+    margin-left: 150px;
+    font-size: 56px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;    
+}
+
+.ul-menu{
+    font-family: sans-serif;
+    display: inline; 
+    margin: 35px 400px 0 0; 
+    text-align: right;
+    float: right;
+    /* display: flex; */
+    /*justify-content: center; */
+}
+.lista{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: -15px;
+}
+.menu .ul-menu a{
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 2px; 
+    padding: 15px;
+}
+a:hover{
+    background-color: #00499f;
+    color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 50px;
+}
+img{
+    height: 1000px;
+    width: 1905px;
+    background-size: cover;
+}
+
+
+/*Form*/
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: #f0f8ff;
+    /* font-family: sans-serif; */
+    font-size: 1em;
+    /* color: #59429d; */
+    color: #00499f;
+    /* margin-left: 36px; */
+    /* margin-top: 2%; */
+    justify-content: center;
+}
+
+ input, button{
+    border-radius: 5px;
+ }
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo, label{
+    margin-bottom: 0.2em;
+    color: #00499f;
+    display: block;
+}
+
+fieldset.grupo, .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"]{
+    padding: 0.2em;
+    border: 1px solid #00499f;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo, input:focus{
+    background: #e0e0f8;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: #00499f;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    /* position: absolute; */
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate( -50% -50%);
+}
+
+.botao:hover{
+    /* background: #ccbbff; */
+    background: #6493c9;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
